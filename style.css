@@ -1,0 +1,375 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+   position: fixed;
+   background-color: transparent;
+}
+.container{
+    max-width: 1250px;
+    padding: 0px 32px;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+}
+ .div1{
+  width: 12%;
+  border: 3px solid white;
+  border-radius: 15px;
+  text-align: center;
+}
+.div1:hover{
+    cursor: pointer;
+}
+.div1 h1{
+    color: white;
+}
+.div1 p{
+  color: gainsboro;
+}
+.div2{
+    padding: 20px;
+    
+  }
+  .div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+  }
+  ul{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 40px;
+     list-style: none;
+     }
+     li{
+        color: white;
+       
+     }
+     li:hover{
+        cursor: pointer;
+     }
+     .bi.bi-list{
+        font-size: 35px;
+     }
+     .div3:hover{
+        cursor: pointer;
+     }
+     .div4{
+        width: 100%;
+      height: 800px;
+       background-size: cover;
+       background-image: url('https://preview.colorlib.com/theme/pato/images/slide1-01.jpg.webp');
+     }
+     .container1{
+        max-width: 1250px;
+        padding: 0px 32px;
+        margin: auto;
+    }
+    .navbar1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       padding: 250px 0px;
+        flex-direction: column;
+        gap: 30px;
+       
+    }
+    .navbar1 h1{
+        font-size: 50px;
+        color: white;
+        font-style: italic;
+    }
+    .navbar1 h2{
+        font-size: 120px;
+        color: white;
+    }
+    .submit{
+        background-color: white;
+        color: chocolate;
+      border-radius: 10px;
+      padding: 10px 30px;
+      font-size: 17px;
+      border-style: none;
+      transition: all .5s ease;
+
+    }
+    .submit:hover{
+        cursor: pointer;
+        background-color: chocolate;
+        color: white;
+    }
+    .div5{
+        width: 100%;
+        background-color: rgb(237, 235, 232);
+    }
+    .container2{
+        max-width: 1250px;
+        padding: 0px 32px;
+        margin: auto;
+    }
+    .navbar2{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 120px 0px;
+       gap: 20px;
+    }
+    .div6{
+        width: 550px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 17px;
+        
+    }
+    .div7{
+       width: 480px;
+       overflow: hidden;
+       border-radius: 20px;
+    }
+    .div7 img{
+        width: 100%;
+        border-radius: 20px;
+        transition: 1s;
+    }
+    .div7 img:hover{
+        cursor: pointer;
+        scale: 1.1;
+    }
+    .div6 h1{
+        font-size: 30px;
+        color: red;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+    }
+    .div6 p{
+      font-size: 50px;
+      font-weight: 900;
+    }
+    .div6 h2{
+        font-size: 18px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: rgb(183, 180, 180);
+    }
+    .div6 a {
+        text-decoration: none;
+        color: gray;
+        font-size: 14px;
+    }
+    .background-image{
+        background-image: url("https://images.unsplash.com/photo-1499678329028-101435549a4e?auto=format&fit=crop&q=80&w=1770&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        min-height: 360px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .div8 h1{
+       color: red;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+       font-style: italic;
+       font-size: 30px;
+    }
+    .div8 p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 1.2;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 6px;
+    }
+    .div9{
+        width: 100%;
+    }
+    .container3{
+        max-width: 1250px;
+        padding: 0px 32px;
+        margin: auto;
+    }
+    .navbar3{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 120px 0px;
+        gap: 20px;
+    }
+    .box1, .box2, .box3{
+        width: 480px;
+       display: flex;
+       flex-direction: column;
+       gap: 15px;
+     }
+     .photo1, .photo2, .photo3{
+        border-radius: 20px;
+        width: 100%;
+        overflow: hidden;
+     }
+     .photo1 img, .photo2 img, .photo3 img{
+        border-radius: 20px;
+        width: 100%;
+        transition: 1s;
+     }
+     .photo1 img:hover, .photo2 img:hover, .photo3 img:hover{
+        scale: 1.1;
+        border-radius: 20px;
+     }
+     .word1, .word2, .word3{
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        gap: 15px;
+     }
+     .word1 h1, .word2 h1, .word3 h1{
+        font-size: 25px;
+        color: rgb(40, 39, 39);
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     }
+     .word1 h1:hover, .word2 h1:hover, .word3 h1:hover{
+        color: red;
+        cursor: pointer;
+     }
+     .word1 p, .word2 p, .word3 p{
+        font-size: 17px;
+        font-weight: 400;
+        margin: 0;
+        color: gray;
+     }
+     .word1 a, .word2 a, .word3 a{
+       font-size: 10px;
+       text-decoration: none;
+       color: rgb(81, 78, 78);
+       font-weight: 400;
+     }
+     .div10{
+        width: 100%;
+    }
+    .container4{
+        max-width: 1250px;
+        padding: 0px 32px;
+        margin: auto;
+    }
+    .navbar4{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 120px 0px;
+        gap: 20px;
+        text-align: center;
+        flex-direction: column;
+    }
+    .word4 h1{
+        color: red;
+        font-size: 28px;
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   .word4 p{
+    font-size: 55px;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 22px;
+   }
+   .fit{
+    width: 740px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+ }
+ .fit1{
+    border-radius: 20px;
+   width: 350px;
+    overflow: hidden;
+ }
+ .fit3{
+    width: 350px;
+    border-radius: 20px;
+    overflow: hidden;
+ }
+.fit2{
+    border-radius: 20px;
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+}
+ .fit1 img, .fit2 img, .fit3 img{
+    border-radius: 20px;
+    max-width: 100%;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+ }
+ .fit1 img:hover, .fit2 img:hover, .fit3 img:hover{
+    scale: 1.1;
+    border-radius: 20px;
+ }
+ .end{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+ }
+ .old1, .old2, .old3{
+    border-radius: 20px;
+    overflow: hidden;
+
+ }
+ .old1 img, .old2 img, .old3 img{
+    border-radius: 20px;
+    max-width: 100%;
+    transition: 1s;
+    background-position: center;
+    background-size: cover;
+ }
+ .old1 img:hover, .old2 img:hover, .old3 img:hover{
+    scale: 1.1;
+    border-radius: 20px;
+ }
+ .all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+ }
+@media screen  and (max-width:600px) {
+    .div1{
+        width: 100%;
+    }
+    .div2{
+        display: none;
+    }
+    .navbar2{
+       flex-direction: column;
+    }
+    .navbar3{
+        flex-direction: column;
+    }
+    .all{
+        flex-direction: column;
+    }
+}
